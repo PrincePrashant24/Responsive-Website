@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    
+}
+.content{
+    height: 400px;
+    width: 750px;
+    overflow: hidden;
+    position: relative;
+
+}
+.content .images{
+    height: 100%;
+    width: 100%;
+}
+.images img{
+    height: 100%;
+    width: 100%;
+}
+.content .slide{
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height:45px;
+    transform: translateY(-50%);
+    border:2px solid white;
+}
+.content .right{
+    right: 0;
+   
+}
+.slide span{
+    font-size: 35px;
+    color: white;
+    line-height: 41px ;
+}
+
